@@ -1,5 +1,5 @@
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-// Add dotenv config at the top of the file
+const { v4: uuidv4 } = require('uuid');
 require('dotenv').config();
 
 class GeminiService {
@@ -16,7 +16,6 @@ class GeminiService {
     }
     
     this.genAI = new GoogleGenerativeAI(apiKey);
-    // Updated model name - use gemini-1.5-flash instead of gemini-pro
     this.model = this.genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     console.log('GeminiService initialized successfully');
   }
@@ -103,6 +102,15 @@ class GeminiService {
       
       try {
         const parsedData = JSON.parse(cleanedText);
+        
+        // Add unique IDs and metadata to each recipe
+        parsedData.recipes = parsedData.recipes.map(recipe => ({
+          ...recipe,
+          recipeId: uuidv4(),
+          dietPreference,
+          cuisine
+        }));
+        
         return parsedData;
       } catch (parseError) {
         console.error('Error parsing JSON:', parseError);
@@ -111,6 +119,7 @@ class GeminiService {
         // Return a fallback structure if parsing fails
         return {
           recipes: [{
+            recipeId: uuidv4(),
             name: "Error: Could not parse recipes",
             description: "Please try again",
             prepTime: "0",
@@ -124,7 +133,9 @@ class GeminiService {
               protein: "0",
               carbs: "0",
               fat: "0"
-            }
+            },
+            dietPreference,
+            cuisine
           }]
         };
       }
