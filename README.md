@@ -23,7 +23,7 @@ The app starts by asking your dietary preferences with beautiful option cards.
 ### Cuisine Selection
 Choose from 5 different cuisine types to match your taste.
 
-![React](screenshots/2.png)
+![React](screenshots/second.png)
 
 ### Ingredient Input
 Add all available ingredients with an intuitive tag-based interface.
