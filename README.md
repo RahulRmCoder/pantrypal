@@ -33,7 +33,7 @@ Add all available ingredients with an intuitive tag-based interface.
 ### Recipe Results
 View 6 personalized recipes with expandable cards showing full details.
 
-![Gemini API](screenshots/4.png)
+![Gemini API](screenshots/4.1.png)
 
 ## 🚀 Tech Stack
 
