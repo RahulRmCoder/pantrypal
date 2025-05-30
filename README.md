@@ -27,14 +27,21 @@ Your intelligent kitchen companion that generates personalized recipes based on 
 ### Home Page - Diet Preference Selection
 The app starts by asking your dietary preferences with beautiful option cards.
 
+![PantryPal](screenshots/1.png)
+
 ### Cuisine Selection
 Choose from 5 different cuisine types to match your taste.
+
+![React](screenshots/2.png)
 
 ### Ingredient Input
 Add all available ingredients with an intuitive tag-based interface.
 
+![Node.js](screenshots/3.png)
+
 ### Recipe Results
-View 6 personalized recipes with expandable cards showing full details. Save your favorites with the heart icon.
+View 6 personalized recipes with expandable cards showing full details.
+![Node.js](screenshots/4.png)
 
 ### Saved Recipes
 Access all your saved recipes with filters and sorting options.
@@ -69,7 +76,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/pantrypal.git
+   git clone https://github.com/RahulRmCoder/pantrypal.git
    cd pantrypal
    ```
 
@@ -313,8 +320,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, email your-email@example.com or open an issue in the GitHub repository.
+For support, email rahulrajasekharanmenon64325@gmail.com or open an issue in the GitHub repository.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Rahul Rajasekharan Menon]
