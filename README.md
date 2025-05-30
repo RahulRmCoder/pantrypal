@@ -21,27 +21,27 @@ Your intelligent kitchen companion that generates personalized recipes based on 
 ### Home Page - Diet Preference Selection
 The app starts by asking your dietary preferences with beautiful option cards.
 
-![PantryPal](screenshots/1.png)
+![PantryPal](screenshots/First.png)
 
 ### Cuisine Selection
 Choose from 5 different cuisine types to match your taste.
 
-![React](screenshots/2.png)
+![React](screenshots/second.png)
 
 ### Ingredient Input
 Add all available ingredients with an intuitive tag-based interface.
 
-![Node.js](screenshots/3.png)
+![Node.js](screenshots/third.png)
 
 ### Recipe Results
 View 6 personalized recipes with expandable cards showing full details.
 
-![Node.js](screenshots/4.png)
+![Node.js](screenshots/fourth.png)
 
 ### Saved Recipes
 Access all your saved recipes with filters and sorting options.
 
-![Node.js](screenshots/5.png)
+![Node.js](screenshots/fifth.png)
 
 ## 🚀 Tech Stack
 
