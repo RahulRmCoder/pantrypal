@@ -2,12 +2,6 @@
 
 Your intelligent kitchen companion that generates personalized recipes based on your dietary preferences, cuisine choices, and available ingredients.
 
-![PantryPal](https://img.shields.io/badge/PantryPal-Recipe%20Generator-purple)
-![React](https://img.shields.io/badge/React-18.2.0-blue)
-![Node.js](https://img.shields.io/badge/Node.js-14%2B-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green)
-![Gemini API](https://img.shields.io/badge/Gemini-API-orange)
-
 ## 🌟 Features
 
 - **Personalized Recipe Generation**: Get 6 unique recipes tailored to your preferences
@@ -41,10 +35,13 @@ Add all available ingredients with an intuitive tag-based interface.
 
 ### Recipe Results
 View 6 personalized recipes with expandable cards showing full details.
+
 ![Node.js](screenshots/4.png)
 
 ### Saved Recipes
 Access all your saved recipes with filters and sorting options.
+
+![Node.js](screenshots/5.png)
 
 ## 🚀 Tech Stack
 
